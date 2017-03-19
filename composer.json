@@ -46,5 +46,11 @@
         "league/tactician-bundle": "^0.4",
         "phpunit/phpunit": "^5.0",
         "symfony/monolog-bundle": "^2.0"
-    }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev"
 }
