@@ -1,9 +1,14 @@
 {
-    "name": "gnugat/micro-framework-bundle",
+    "name": "alexcoffee/micro-framework-bundle",
     "license": "MIT",
     "type": "symfony-bundle",
     "description": "Symfony Micro Framework Bundle",
-    "keywords": ["symfony", "micro", "framework", "bundle"],
+    "keywords": [
+        "symfony",
+        "micro",
+        "framework",
+        "bundle"
+    ],
     "homepage": "http://gnugat.github.io/micro-framework-bundle",
     "authors": [
         {
@@ -22,18 +27,20 @@
         ]
     },
     "autoload-dev": {
-        "files": [ "Tests/app/AppKernel.php" ]
+        "files": [
+            "Tests/app/AppKernel.php"
+        ]
     },
     "require": {
-        "php": "^5.5.9|^7.0",
-        "symfony/class-loader": "^3.0",
-        "symfony/filesystem": "^3.0",
-        "symfony/config": "^3.0",
-        "symfony/console": "^3.0",
-        "symfony/dependency-injection": "^3.0",
-        "symfony/finder": "^3.0",
-        "symfony/http-kernel": "^3.0",
-        "symfony/routing": "^3.0"
+        "php": "^7.1",
+        "symfony/class-loader": "3.3.x-dev",
+        "symfony/filesystem": "3.3.x-dev",
+        "symfony/config": "3.3.x-dev",
+        "symfony/console": "3.3.x-dev",
+        "symfony/dependency-injection": "3.3.x-dev",
+        "symfony/finder": "3.3.x-dev",
+        "symfony/http-kernel": "3.3.x-dev",
+        "symfony/routing": "3.3.x-dev"
     },
     "require-dev": {
         "league/tactician-bundle": "^0.4",
