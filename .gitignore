@@ -7,3 +7,5 @@
 # Temporary
 /Tests/app/cache
 /Tests/app/logs
+
+.idea
